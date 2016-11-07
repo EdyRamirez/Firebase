@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mdl/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/mdl/material.css" />
+    <title>Contacts</title>
+
+    <script type="text/javascript" src="js/firebase/firebase.js"></script>
+    <script type="text/javascript" src="js/firebase/offline/firebase-debug.js"></script>
+    <script type="text/javascript" src="js/firebase/offline/OfflineFirebase.js"></script>
+
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyA7q0Ww7OkGsabxScfqsjEx8LlNGcV-LIg",
+            authDomain: "fir-fire-base-353e7.firebaseapp.com",
+            databaseURL: "https://fir-fire-base-353e7.firebaseio.com",
+            storageBucket: "fir-fire-base-353e7.appspot.com",
+            messagingSenderId: "194646414067"
+        };
+        firebase.initializeApp(config);
+
+        OfflineFirebase.restore();
+        var f = new OfflineFirebase(config.databaseURL);
+        f.on('value', function(snapshot) {
+            console.log(snapshot.val());
+        }, undefined, undefined, true);
+    </script>
+
+</head>
+
+<body>
+<!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+
+            <!-- Title -->
+            <span class="mdl-layout-title"><img class="mdl-logo" src="img/firebase-logo.png" alt=""> Contactos</span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation. We hide it in small screens. -->
+            <!--nav class="mdl-navigation mdl-layout--large-screen-only">
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+            </nav-->
+
+            <!-- Right aligned menu below button -->
+            <button id="demo-menu-lower-right"
+                    class="mdl-button mdl-js-button mdl-button--icon">
+                <i class="material-icons">more_vert</i>
+            </button>
+
+            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+                for="demo-menu-lower-right">
+                <li class="mdl-menu__item show-contact">Contactos</li>
+                <li class="mdl-menu__item show-add">Agregar</li>
+
+            </ul>
+
+        </div>
+
+
+
+    </header>
+
+    <!--div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Fire Base</span>
+
+        <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="">Link</a>
+            <a class="mdl-navigation__link" href="">Link</a>
+            <a class="mdl-navigation__link" href="">Link</a>
+            <a class="mdl-navigation__link" href="">Link</a>
+        </nav>
+
+    </div-->
+    <main class="mdl-layout__content">
+
+        <div class="page-content">
+
+            <section id="contact" class="mdl-grid content ">
+                <div class="mdl-cell mdl-cell--12-col mdl-grid">
+                    <ul class="contact-list mdl-list">
+
+                    </ul>
+                </div>
+            </section>
+
+
+
+
+
+            <section id="add" class="mdl-grid content hide">
+                <div class="mdl-cell mdl-cell--12-col mdl-grid">
+
+                    <!--div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text" pattern="[A-Z,a-z]*" id="username" />
+                        <label class="mdl-textfield__label" for="username">Username</label>
+                        <span class="mdl-textfield__error">Only alphabet and no spaces, please!</span>
+                    </div-->
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text"  id="name" />
+                        <label class="mdl-textfield__label" for="name">Nombre</label>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text"  id="last_name" />
+                        <label class="mdl-textfield__label" for="last_name">Apellidos</label>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="email"  id="email" />
+                        <label class="mdl-textfield__label" for="email">Email</label>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text"  id="phone" />
+                        <label class="mdl-textfield__label" for="phone">Telefono</label>
+                    </div>
+
+
+                    <button id="send"
+                            class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored "
+                            style="margin-right: 0px;"
+                    >
+                        <i class="material-icons">send</i>
+                    </button>
+                </div>
+            </section>
+
+        </div>
+    </main>
+</div>
+
+
+
+    <div id="demo-snackbar-example" class="mdl-js-snackbar mdl-snackbar">
+        <div class="mdl-snackbar__text"></div>
+        <button class="mdl-snackbar__action" type="button"></button>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/tab/jquery.mobile.custom.js"></script>
+    <script type="text/javascript" src="js/mdl/material.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,437 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>T&oacute;temsApp</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+        <meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1" />
+        <link rel="stylesheet" type="text/css" href="js/bootstrap-3.3.6-dist/css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+        <link rel="stylesheet" type="text/css" href="css/effects/component.css" />
+        <link rel="stylesheet" type="text/css" href="css/PageTransitions/animations.css" />
+        <link rel="stylesheet" type="text/css" href="css/PageTransitions/component.css" />
+        <link rel="stylesheet" type="text/css" href="css/fonts/totems/stylesheet.css" />
+        <link rel="stylesheet" type="text/css" href="css/totems.css" />
+
+    <script>
+    if(localStorage.getItem("login_id")){
+        window.location ='app.html';
+    }
+    </script>
+
+    </head>
+    <body>
+
+    <!-- Tutorial -->
+    <div id="page-tutorial">
+        <!-- Head -->
+        <div class="navbar-header header-intro">
+            <div class="container-fluid">
+                <div class="pull-left logo">
+                    <img src="img/totems.svg" alt="logo"/>
+                </div>
+                <div class="pull-right">
+                    <a class="text-white">
+                        <i><span class="fa fa-times close-tutorial"></span></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- /Head -->
+        <div id="tutorial" class="slides">
+            <!-- Slides -->
+            <section id="page-1" class="pt-page tuto bg-melon">
+                <div class="row icon-tutorial">
+                    <div class="col-sm-12 text-center">
+                        <a href="#" class="cbutton cbutton--effect-jagoda  cbutton--click">
+                            <img class="img-icon" src="img/tutorial/tbgbigato.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="row msg-tutorial">
+                    <div class="col-sm-12 text-center text-white">
+                        <h1>¡Bienvenido!</h1>
+                        <p>La primer comunidad</p>
+                        <p>Human Friendly</p>
+                    </div>
+                </div>
+            </section>
+            <section id="page-2" class="pt-page tuto bg-aqua">
+                <div class="row icon-tutorial">
+                    <div class="col-sm-12 text-center">
+                        <a href="#" class="cbutton cbutton--effect-jagoda cbutton--click">
+                            <img src="img/tutorial/tbgbullmurray.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="row msg-tutorial">
+                    <div class="col-sm-12 text-center text-white">
+                        <h1>Directorio</h1>
+                        <p>Accede a nuestro directorio de</p>
+                        <p>establecimientos Human Friendly, haz</p>
+                        <p>check-in y obt&eacute;n beneficios</p>
+                    </div>
+                </div>
+            </section>
+            <section id="page-3" class="pt-page tuto bg-melon">
+                <div class="row icon-tutorial">
+                    <div class="col-sm-12 text-center">
+                        <a href="#" class="cbutton cbutton--effect-jagoda cbutton--click">
+                            <img src="img/tutorial/categorias.png" style="top:70px; margin-bottom: 70px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="row msg-tutorial">
+                    <div class="col-sm-12 text-center text-white">
+                        <h1>Categor&iacute;as</h1>
+                        <p>Busca negocios r&aacute;pidamente por</p>
+                        <p>medio de nuetras categor&iacute;as</p>
+                    </div>
+                </div>
+            </section>
+            <section id="page-4" class="pt-page tuto bg-aqua">
+                <div class="row icon-tutorial">
+                    <div class="col-sm-12 text-center">
+                        <a href="#" class="cbutton cbutton--effect-jagoda cbutton--click">
+                            <img src="img/tutorial/huellita.png" style="top:0px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="row msg-tutorial" style="top:-90px;">
+                    <div class="col-sm-12 text-center text-white">
+                        <h1>Obt&eacute;n Beneficios</h1>
+                        <p>Utiliza este bot&oacute;n en el directorio</p>
+                        <p>para buscar negocios cercanos a ti</p>
+                        <p>y obtener beneficios cuando veas</p>
+                        <p>esta animaci&oacute;n</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- /Slides -->
+        </div>
+        <!-- Footer navbar-->
+        <nav class="footer">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="nav-tutorial">
+                        <div class="nav-page nav-page-tutorial">
+                           <div class="container">
+                                <div class="col-sm-12 page-1" id="next_btn">
+                                    <a href="#">Siguiente</a>
+                                </div>
+                                <div class="col-sm-12 page-2  hide">
+                                    <div id="nav_prev_bnt" class="col-xs-6 pull-lef">
+                                        <i><span class="fa fa-angle-left icon-nav"></span></i>
+                                    </div>
+                                    <div id="nav_next_bnt" class="col-xs-6 pull-right">
+                                        <i><span class="fa fa-angle-right icon-nav"></span></i>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 page-3  hide">
+                                    <div id="nav_prev_bnt2" class="col-xs-6 pull-lef">
+                                        <i><span class="fa fa-angle-left icon-nav"></span></i>
+                                    </div>
+                                    <div id="nav_next_bnt2" class="col-xs-6 pull-right">
+                                        <i><span class="fa fa-angle-right icon-nav"></span></i>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 page-4  hide">
+                                    <div id="nav_prev_bnt3" class="col-xs-6 pull-lef">
+                                        <i><span class="fa fa-angle-left icon-nav"></span></i>
+                                    </div>
+                                    <div class="col-xs-6 pull-right">
+                                        <a id="finish_btn">Entrar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- /Footer navbar-->
+    </div>
+    <!-- /Tutorial -->
+    <script>
+        var main = '#tutorial';
+        var children = 'section.pt-page';
+    </script>
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jqmobile/tap/jquery.mobile.custom.js"></script>
+    <script type="text/javascript" src="js/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/PageTransitions/modernizr.custom.js"></script>
+    <script type="text/javascript" src="js/PageTransitions/pagetransitions.js"></script>
+
+
+    <script type="text/javascript">
+        var next_btn = $('#next_btn');
+        var nav_prev_btn = $('#nav_prev_bnt');
+        var nav_next_btn = $('#nav_next_bnt');
+        var nav_prev_btn2 = $('#nav_prev_bnt2');
+        var nav_next_btn2 = $('#nav_next_bnt2');
+        var nav_prev_btn3 = $('#nav_prev_bnt3');
+
+        var tutorial = $('#tutorial');
+        var finish_btn = $('#finish_btn');
+        var close_btn = $('.close-tutorial');
+        var header_intro = $('.header-intro');
+
+        var count = 0;
+
+        next_btn.tap(function(e) {
+
+            if(count == 0) {
+                var nav = {
+                    animation: 9,
+                    showPage: 1
+                };
+                nav_prev_btn.css('z-index', -1);
+                setTimeout(function () {
+                    nav_prev_btn.removeAttr('style');
+                    count = 0;
+                }, 1000);
+                PageTransitions.nextPage(nav);
+            }
+            count++;
+
+        });
+
+        nav_prev_btn.tap(function(e) {
+
+            if(count == 0) {
+                var nav = {
+                    animation:10,
+                    showPage:-1
+                };
+
+                next_btn.css('z-index',-1);
+
+                finish_btn.removeAttr('href');
+                setTimeout(function(){
+                    next_btn.removeAttr('style');
+                    count = 0;
+                },1000);
+
+                PageTransitions.nextPage( nav );
+            }
+            count++;
+
+        });
+
+        nav_next_btn.tap(function(e) {
+
+            if(count == 0) {
+                var nav = {
+                    animation:9,
+                    showPage:2
+                };
+
+                setTimeout(function(){
+                    PageTransitions.nextPage( nav );
+                    count = 0;
+                },1000);
+            }
+            count++;
+
+        });
+
+        nav_prev_btn2.tap(function(e) {
+            if(count == 0) {
+                var nav = {
+                    animation:10,
+                    showPage:1
+                };
+
+                nav_next_btn.css('z-index', -1);
+                nav_prev_btn.css('z-index', -1);
+
+                setTimeout(function(){
+                    nav_next_btn.removeAttr('style');
+                    nav_prev_btn.removeAttr('style');
+                    count = 0;
+                },500);
+
+                PageTransitions.nextPage( nav )
+            }
+            count++;
+        });
+
+        nav_next_btn2.tap(function(e) {
+            if(count == 0) {
+                var nav = {
+                    animation:9,
+                    showPage:3
+                };
+
+                setTimeout(function(){
+                    PageTransitions.nextPage( nav );
+                    count = 0;
+                },1000);
+            }
+            count++;
+        });
+
+        nav_prev_btn3.tap(function(e) {
+            if(count == 0) {
+                var nav = {
+                    animation:10,
+                    showPage:2
+                };
+
+                nav_next_btn.css('z-index', -1);
+                nav_prev_btn.css('z-index', -1);
+
+                nav_next_btn.removeAttr('style');
+                nav_prev_btn.removeAttr('style');
+                setTimeout(function(){
+                    PageTransitions.nextPage( nav );
+                    count = 0;
+                },1000);
+            }
+            count++;
+        });
+
+
+
+        finish_btn.tap(function(e){
+            db.transaction(insertDB, errorCB);
+            localStorage.setItem('status', 1);
+            location.href='login.html';
+        });
+
+        close_btn.tap(function(e){
+            db.transaction(insertDB, errorCB);
+            localStorage.setItem('status', 1);
+            location.href='login.html';
+        });
+
+        tutorial.swiperight(function(e) {
+            var info = PageTransitions.getCurrentPage();
+            var current = info.current;
+            var pages = info.pages;
+
+
+                if (current == 0) {
+
+                } else if (current == 1) {
+                    finish_btn.removeAttr('href');
+                    var back = -1;
+                    var nav = {
+                        animation: 10,
+                        showPage: back
+                    };
+                    PageTransitions.nextPage(nav);
+
+                } else if (current > 1) {
+                    var back = current - 1;
+                    var nav = {
+                        animation: 10,
+                        showPage: back
+                    };
+                    PageTransitions.nextPage(nav);
+
+                }
+
+
+        });
+
+        tutorial.swipeleft(function(e) {
+            var info = PageTransitions.getCurrentPage();
+            var current = info.current;
+            var pages = info.pages;
+
+
+            if(current == 0){
+                           var next = current + 1;
+                           var nav = {
+                           animation: 9,
+                           showPage: next
+                           };
+                           PageTransitions.nextPage(nav);
+
+            }
+            if(current == 1){
+                           var next = current + 1;
+                           var nav = {
+                           animation: 9,
+                           showPage: next
+                           };
+                           PageTransitions.nextPage(nav);
+
+            }
+            if(current == 2){
+                           var next = current + 1;
+                           var nav = {
+                           animation: 9,
+                           showPage: next
+                           };
+                           PageTransitions.nextPage(nav);
+
+            }
+            if(current == 3){
+                finish_btn.attr('href','login.html');
+            }
+
+
+
+        });
+
+        // PhoneGap is ready
+        var db;
+        var status;
+        var row;
+
+
+        status = localStorage.getItem('status');
+        db = window.openDatabase("Database", "1.0", "Totems", 2*1024*1024);
+        if(
+                status === 'undefined'
+                || status === 'null'
+                || status === ''
+                || status === ""
+        ){
+            db.transaction(createDB, errorCB, successCB);
+            db.transaction(sucessQueryDB, errorCB, successCB);
+        }else if(localStorage.getItem("login_id")){
+
+            window.location ='app.html';
+
+        } else{
+            location.href='login.html';
+        }
+
+        function createDB(tx) {
+            //tx.executeSql('DROP TABLE IF EXISTS TUTORIAL');
+            tx.executeSql('CREATE TABLE IF NOT EXISTS TUTORIAL (id integer primary key autoincrement, status boolean )');
+        }
+
+        function errorCB(err) {
+            console.log("Error processing SQL: "+err.code);
+        }
+
+        function successCB() {
+             console.log("YEAH!!!!");
+        }
+
+        function insertDB(tx) {
+            var status = 1;
+            var sql = 'INSERT INTO TUTORIAL (status) VALUES (?)';
+            tx.executeSql(sql, [status], errorCB);
+        }
+
+        function sucessQueryDB(tx) {
+            tx.executeSql('SELECT * FROM TUTORIAL', [], renderList,errorCB);
+        }
+
+        function renderList(tx,results) {
+            row = results.rows.length;
+            if(row > 0){
+                location.href='login.html';
+            }
+        }
+
+    </script>
+
+    </body>
+</html>

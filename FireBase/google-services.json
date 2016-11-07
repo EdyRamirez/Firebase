@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "194646414067",
+    "firebase_url": "https://fir-fire-base-353e7.firebaseio.com",
+    "project_id": "fir-fire-base-353e7",
+    "storage_bucket": "fir-fire-base-353e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194646414067:android:1556798d413b7465",
+        "android_client_info": {
+          "package_name": "com.edydeveloper.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194646414067-6jkq7e5s96gldg39t7eprutlrfit48ok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUKuM9U41eGcfJA5i7kbZmx_JapThgaaY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

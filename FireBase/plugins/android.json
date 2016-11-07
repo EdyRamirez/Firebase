@@ -1,0 +1,24 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-firebase": {
+            "PACKAGE_NAME": "com.edydeveloper.firebase"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.edydeveloper.firebase"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.edydeveloper.firebase"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.edydeveloper.firebase"
+        }
+    },
+    "dependent_plugins": {}
+}

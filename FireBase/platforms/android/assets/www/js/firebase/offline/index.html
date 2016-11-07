@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Offline Firebase</title>
+
+<script src="firebase-debug.js"></script>
+<script src="OfflineFirebase.js"></script>
+<script>
+        OfflineFirebase.restore();
+        var f = new OfflineFirebase('https://fir-fire-base-353e7.firebaseio.com');
+        f.on('value', function(snapshot) {
+            console.log(snapshot.val());
+        }, undefined, undefined, true);
+    </script>
+</head>
+<body>
+</body>
+</html>
