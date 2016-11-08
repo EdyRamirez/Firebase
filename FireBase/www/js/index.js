@@ -174,9 +174,19 @@ $('.show-add').tap(function(){
     showPageAddContact();
 });
 
+$('#btn-add-contact').tap(function(){
+    showPageAddContact();
+});
+
+
 function showPageAddContact(){
-    $('#contact').addClass('hide');
-    $('#add').removeClass('hide');
+
+    var nav = {
+        animation: 15,
+        showPage: 1
+    };
+
+    PageTransitions.nextPage(nav);
 }
 
 $('.show-contact').tap(function(){
@@ -184,8 +194,11 @@ $('.show-contact').tap(function(){
 });
 
 function showPageContact(){
-    $('#contact').removeClass('hide');
-    $('#add').addClass('hide');
+    var nav = {
+        animation: 15,
+        showPage: -1
+    };
+    PageTransitions.nextPage(nav);
 }
 
 //-- Action form add contact

@@ -1,4 +1,3 @@
-
 var PageTransitions = (function() {
 
     var $main = $( main ),
@@ -37,6 +36,21 @@ var PageTransitions = (function() {
         return info;
     }
 
+	function findPageId(id){
+        $pages.each( function(i, data) {
+            var $page = $( this );
+			if($page[0].id == id){
+				current = i;
+			};
+        } );
+
+        var info = {
+            index: current
+        };
+
+        return info;
+    }
+
     function init() {
 		$pages.each( function() {
 			var $page = $( this );
@@ -53,7 +67,7 @@ var PageTransitions = (function() {
 		}
 
 		isAnimating = true;
-		
+
 		var $currPage = $pages.eq( current );
 
 		if(options.showPage){
@@ -77,9 +91,11 @@ var PageTransitions = (function() {
         var $nextPage = $pages.eq( current).removeClass('hide').addClass( 'pt-page-current'),
 			outClass = '', inClass = '';
 
+
         var nav_target = '.'+$nextPage.attr('id');
         $(nav_target).removeClass('hide');
-        var nav_current = '.'+$currPage.attr('id');
+
+		var nav_current = '.'+$currPage.attr('id');
         $(nav_current).addClass('hide');
 
 		switch( animation ) {
@@ -396,6 +412,7 @@ var PageTransitions = (function() {
 
     }
 
+
 	function onEndAnimation( $outpage, $inpage ) {
 		endCurrPage = false;
 		endNextPage = false;
@@ -413,7 +430,8 @@ var PageTransitions = (function() {
 	return { 
 		init : init,
 		nextPage : nextPage,
-        getCurrentPage: getCurrentPage
+        getCurrentPage: getCurrentPage,
+		findPage: findPageId,
 	};
 
 })();

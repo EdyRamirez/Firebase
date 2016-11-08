@@ -36,6 +36,7 @@
             console.log(snapshot.val());
         }, undefined, undefined, true);
 
+        //PageTransitions
         var main = '#app';
         var children = 'section.pt-page';
     </script>
@@ -46,19 +47,11 @@
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-
             <!-- Title -->
             <span class="mdl-layout-title">
                 <img class="mdl-logo" src="img/firebase-logo.png" alt=""> Contactos</span>
             <!-- Add spacer, to align navigation to the right -->
             <div class="mdl-layout-spacer"></div>
-            <!-- Navigation. We hide it in small screens. -->
-            <!--nav class="mdl-navigation mdl-layout--large-screen-only">
-                <a class="mdl-navigation__link" href="">Link</a>
-                <a class="mdl-navigation__link" href="">Link</a>
-                <a class="mdl-navigation__link" href="">Link</a>
-                <a class="mdl-navigation__link" href="">Link</a>
-            </nav-->
 
             <!-- Right aligned menu below button -->
             <button id="demo-menu-lower-right"
@@ -70,38 +63,48 @@
                 for="demo-menu-lower-right">
                 <li class="mdl-menu__item show-contact">Contactos</li>
                 <li class="mdl-menu__item show-add">Agregar</li>
+                <li class="mdl-menu__item show-delete">Eliminar Contacto</li>
+
             </ul>
 
         </div>
-
-
-
     </header>
 
-    <!--div class="mdl-layout__drawer">
-        <span class="mdl-layout-title">Fire Base</span>
 
-        <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-        </nav>
+    <main class="mdl-layout__content">
+        <div id="app" class="page-content">
 
-    </div-->
+            <section id="contact" class="mdl-grid content pt-page hide ">
 
-    <main id="app" class="mdl-layout__content">
-        <div class="page-content">
-
-            <section id="contact" class="pt-page mdl-grid content ">
-                <div class="mdl-cell mdl-cell--12-col mdl-grid">
-                    <ul class="contact-list mdl-list">
-
-                    </ul>
-                </div>
+                    <div class="mdl-cell mdl-cell--12-col mdl-grid">
+                        <ul class="contact-list mdl-list"></ul>
+                    </div>
             </section>
 
-            <section id="add" class="pt-page mdl-grid content hide">
+            <section id="delete" class="mdl-grid content pt-page hide ">
+
+                    <div class="mdl-cell mdl-cell--12-col mdl-grid">
+                        <ul class="contact-list-delete mdl-list">
+                                <li class="mdl-list__item">
+
+                                    <span class="mdl-list__item-secondary-action" style="margin-right: 50px;">
+                                      <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="list-checkbox-1">
+                                          <input type="checkbox" id="list-checkbox-1" class="mdl-checkbox__input" checked />
+                                      </label>
+                                    </span>
+
+                                    <span class="mdl-list__item-primary-content">
+                                    <i class="material-icons  mdl-list__item-avatar">person</i>
+                                      Bryan Cranston
+                                    </span>
+
+                                </li>
+                        </ul>
+                    </div>
+            </section>
+
+            <section id="add" class="mdl-grid content pt-page hide ">
+
                 <div class="mdl-cell mdl-cell--12-col mdl-grid">
 
                     <!--div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -129,12 +132,13 @@
 
                     <button id="send"
                             class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored "
-                            style="margin-right: 0px;"
-                    >
+                            style="margin-right: 0px;">
                         <i class="material-icons">send</i>
                     </button>
                 </div>
+
             </section>
+
 
         </div>
     </main>
