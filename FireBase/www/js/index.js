@@ -171,7 +171,7 @@ function printContact(contact, index){
 
         var span_input = $('<span>');
             span_input.addClass('mdl-list__item-secondary-action');
-            span_input.css({'margin-right': '40px' });
+            span_input.css({'margin-right': '20px' });
         var label = $('<label>');
             label.addClass('mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect');
 

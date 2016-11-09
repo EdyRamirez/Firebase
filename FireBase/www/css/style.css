@@ -8,6 +8,10 @@
     right: 0;
 }
 
+.content {
+    background: #fafafa;
+}
+
 .text-white{
     color: white;
 }
@@ -73,8 +77,20 @@ section{
     z-index: 3;
 }
 
-
-
 .bg-white{
     background: white;
 }
+
+
+.demo-card-wide.mdl-card {
+        width: 100%;
+}
+.demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('../assets/demos/welcome_card.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+    color: #fff;
+}
+
