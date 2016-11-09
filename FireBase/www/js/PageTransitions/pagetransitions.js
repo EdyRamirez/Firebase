@@ -2,9 +2,8 @@ var PageTransitions = (function() {
 
     var $main = $( main ),
         $pages = $main.children( children ),
-        animcursor = 1,
         pagesCount = $pages.length,
-        current = 0,
+		current = 0,
         isAnimating = false,
         endCurrPage = false,
         endNextPage = false,
@@ -20,17 +19,21 @@ var PageTransitions = (function() {
         support = Modernizr.cssanimations;
 
     function getCurrentPage(){
+       	var id = '';
+		var current = '';
         $pages.each( function(i, data) {
             var $page = $( this );
-            var current = $page.filter('.pt-page-current');
-            if( current.length > 0){
-              current = i;
-            }
+			var find = $page.filter('.pt-page-current');
+			if(find.length==1){
+				current = i;
+				id = $page[0].id;
+			}
         } );
 
         var info = {
             pages: pagesCount-1,
-            current: current
+            index: current,
+			id: id
         };
 
         return info;
@@ -65,38 +68,23 @@ var PageTransitions = (function() {
 		if( isAnimating ) {
 			return false;
 		}
-
 		isAnimating = true;
 
-		var $currPage = $pages.eq( current );
+
+		var $currPage = $pages.eq( options.currentPage );
 
 		if(options.showPage){
-			if(options.showPage >= 0 && options.showPage < pagesCount  ) {
+			if( options.showPage <= pagesCount - 1 ) {
 				current = options.showPage;
 			}
 			else {
 				current = 0;
 			}
 		}
-		else{
-			if( current < pagesCount - 1 ) {
-				++current;
-			}
-			else {
-				current = 0;
-			}
-		}
-
 
         var $nextPage = $pages.eq( current).removeClass('hide').addClass( 'pt-page-current'),
 			outClass = '', inClass = '';
 
-
-        var nav_target = '.'+$nextPage.attr('id');
-        $(nav_target).removeClass('hide');
-
-		var nav_current = '.'+$currPage.attr('id');
-        $(nav_current).addClass('hide');
 
 		switch( animation ) {
 
@@ -374,36 +362,18 @@ var PageTransitions = (function() {
 
         $currPage.addClass( outClass ).on( animEndEventName, function() {
 			$currPage.off( animEndEventName );
-            if(options.cycling) {
-                if(options.cycling == true) {
-                    endCurrPage = true;
-                    if (endNextPage) {
-                        onEndAnimation($currPage, $nextPage);
-                    }
-                }
-            }else{
                 endCurrPage = true;
                 if (endNextPage) {
                     onEndAnimation($currPage, $nextPage);
                 }
-            }
 		} );
 
 		$nextPage.addClass( inClass ).on( animEndEventName, function() {
 			$nextPage.off( animEndEventName );
-            if(options.cycling) {
-                if (options.cycling == true) {
-                    endNextPage = true;
-                    if (endCurrPage) {
-                        onEndAnimation($currPage, $nextPage);
-                    }
-                }
-            }else{
                 endNextPage = true;
                 if (endCurrPage) {
                     onEndAnimation($currPage, $nextPage);
                 }
-            }
 		} );
 
 		if( !support ) {
@@ -411,7 +381,6 @@ var PageTransitions = (function() {
 		}
 
     }
-
 
 	function onEndAnimation( $outpage, $inpage ) {
 		endCurrPage = false;
@@ -431,7 +400,7 @@ var PageTransitions = (function() {
 		init : init,
 		nextPage : nextPage,
         getCurrentPage: getCurrentPage,
-		findPage: findPageId,
+		findPage: findPageId
 	};
 
 })();

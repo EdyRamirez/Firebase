@@ -22,35 +22,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="188" column="34" selection-start-line="183" selection-start-column="4" selection-end-line="188" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.7669377">
+              <caret line="381" column="17" selection-start-line="381" selection-start-column="17" selection-end-line="381" selection-end-column="17" />
               <folding>
                 <element signature="n#!!block;n#signInAnonymously#0" expanded="false" />
-                <element signature="n#!!block;n#logout#0" expanded="false" />
                 <element signature="n#!!block;n#AuthState#0" expanded="false" />
+                <element signature="n#!!block;n#logout#0" expanded="false" />
                 <element signature="n#!!block;n#writeUserData#0" expanded="false" />
                 <element signature="n#!!block;n#sendData#0" expanded="false" />
+                <element signature="n#!!block;n#deleteContactUser#0" expanded="false" />
                 <element signature="n#!!block;n#getContact#0" expanded="false" />
                 <element signature="n#!!block;n#printContact#0" expanded="false" />
                 <element signature="n#!!block;n#updateContact#0" expanded="false" />
                 <element signature="n#!!block;n#removeContact#0" expanded="false" />
                 <element signature="n#!!block;n#showtoast#0" expanded="false" />
-                <element signature="e#5673#6370#0" expanded="false" />
+                <element signature="e#7321#7471#0" expanded="false" />
+                <element signature="e#7508#7662#0" expanded="false" />
+                <element signature="e#7698#7854#0" expanded="false" />
+                <element signature="n#!!block;n#goPage#0" expanded="false" />
+                <element signature="e#8230#9176#0" expanded="false" />
                 <element signature="n#!!block;n#cleanFormData#0" expanded="false" />
+                <element signature="n#!!block;n#getCheck#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.192308">
-              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -58,10 +54,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.538462">
-              <caret line="89" column="108" selection-start-line="89" selection-start-column="108" selection-end-line="89" selection-end-column="108" />
+            <state vertical-scroll-proportion="-22.76923">
+              <caret line="96" column="50" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="50" />
               <folding>
-                <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#section#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#section#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#button#0;n#div#0;n#section#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -72,27 +67,21 @@
       <file leaf-file-name="component.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/css/PageTransitions/component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state vertical-scroll-proportion="-0.018867925">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pagetransitions.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/js/PageTransitions/pagetransitions.js">
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51626015">
-              <caret line="414" column="0" selection-start-line="414" selection-start-column="0" selection-end-line="414" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.773585">
+              <caret line="30" column="67" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
               <folding>
-                <element signature="e#1347#1546#0" expanded="false" />
-                <element signature="e#1577#11241#0" expanded="false" />
-                <element signature="e#2335#10050#0" expanded="false" />
-                <element signature="e#10125#10609#0" expanded="false" />
-                <element signature="e#10751#10994#0" expanded="false" />
-                <element signature="e#11069#11146#0" expanded="false" />
-                <element signature="e#11290#11403#0" expanded="false" />
-                <element signature="e#11446#11621#0" expanded="false" />
+                <element signature="n#platform#0;n#widget#0;n#!!top" expanded="false" />
+                <element signature="n#platform#1;n#widget#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -113,12 +102,12 @@
         <option value="$PROJECT_DIR$/www/css/index.css" />
         <option value="$PROJECT_DIR$/www/index_.html" />
         <option value="$PROJECT_DIR$/www/css/mdl/font.css" />
-        <option value="$PROJECT_DIR$/config.xml" />
-        <option value="$PROJECT_DIR$/www/css/PageTransitions/component.css" />
-        <option value="$PROJECT_DIR$/www/css/style.css" />
-        <option value="$PROJECT_DIR$/www/js/index.js" />
-        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/js/PageTransitions/pagetransitions.js" />
+        <option value="$PROJECT_DIR$/www/css/PageTransitions/component.css" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/css/style.css" />
+        <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/www/js/index.js" />
       </list>
     </option>
   </component>
@@ -162,8 +151,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -228,56 +215,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PageTransitions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireBase" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireBase" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireBase" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireBase" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PageTransitions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,7 +283,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.169375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.339375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -356,6 +301,25 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.169375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -370,7 +334,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -378,20 +342,92 @@
     <entry file="file://$PROJECT_DIR$/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="218" column="0" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
+          <caret line="188" column="34" selection-start-line="183" selection-start-column="4" selection-end-line="188" selection-end-column="34" />
           <folding>
             <element signature="n#!!block;n#signInAnonymously#0" expanded="false" />
-            <element signature="n#!!block;n#logout#0" expanded="false" />
             <element signature="n#!!block;n#AuthState#0" expanded="false" />
+            <element signature="n#!!block;n#logout#0" expanded="false" />
             <element signature="n#!!block;n#writeUserData#0" expanded="false" />
             <element signature="n#!!block;n#sendData#0" expanded="false" />
+            <element signature="n#!!block;n#deleteContactUser#0" expanded="false" />
             <element signature="n#!!block;n#getContact#0" expanded="false" />
             <element signature="n#!!block;n#printContact#0" expanded="false" />
             <element signature="n#!!block;n#updateContact#0" expanded="false" />
             <element signature="n#!!block;n#removeContact#0" expanded="false" />
             <element signature="n#!!block;n#showtoast#0" expanded="false" />
-            <element signature="e#5673#6370#0" expanded="false" />
+            <element signature="e#7321#7471#0" expanded="false" />
+            <element signature="e#7508#7662#0" expanded="false" />
+            <element signature="e#7698#7854#0" expanded="false" />
+            <element signature="n#!!block;n#goPage#0" expanded="false" />
+            <element signature="e#8230#9176#0" expanded="false" />
             <element signature="n#!!block;n#cleanFormData#0" expanded="false" />
+            <element signature="n#!!block;n#getCheck#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="89" column="108" selection-start-line="89" selection-start-column="108" selection-end-line="89" selection-end-column="108" />
+          <folding>
+            <element signature="n#section#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#section#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/PageTransitions/component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/PageTransitions/pagetransitions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#691#1069#0" expanded="false" />
+            <element signature="e#1095#1322#0" expanded="false" />
+            <element signature="e#1344#1543#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="218" column="0" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#signInAnonymously#0" expanded="false" />
+            <element signature="n#!!block;n#AuthState#0" expanded="false" />
+            <element signature="n#!!block;n#logout#0" expanded="false" />
+            <element signature="n#!!block;n#writeUserData#0" expanded="false" />
+            <element signature="n#!!block;n#sendData#0" expanded="false" />
+            <element signature="n#!!block;n#deleteContactUser#0" expanded="false" />
+            <element signature="n#!!block;n#getContact#0" expanded="false" />
+            <element signature="n#!!block;n#printContact#0" expanded="false" />
+            <element signature="n#!!block;n#updateContact#0" expanded="false" />
+            <element signature="n#!!block;n#removeContact#0" expanded="false" />
+            <element signature="n#!!block;n#showtoast#0" expanded="false" />
+            <element signature="e#7321#7471#0" expanded="false" />
+            <element signature="e#7508#7662#0" expanded="false" />
+            <element signature="e#7698#7854#0" expanded="false" />
+            <element signature="n#!!block;n#goPage#0" expanded="false" />
+            <element signature="e#8230#9176#0" expanded="false" />
+            <element signature="n#!!block;n#cleanFormData#0" expanded="false" />
+            <element signature="n#!!block;n#getCheck#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -420,7 +456,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="93" column="34" selection-start-line="93" selection-start-column="34" selection-end-line="93" selection-end-column="34" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#section#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#button#0;n#div#0;n#section#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -440,14 +475,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1347#1546#0" expanded="false" />
-            <element signature="e#1577#11241#0" expanded="false" />
-            <element signature="e#2335#10050#0" expanded="false" />
-            <element signature="e#10125#10609#0" expanded="false" />
-            <element signature="e#10751#10994#0" expanded="false" />
-            <element signature="e#11069#11146#0" expanded="false" />
-            <element signature="e#11290#11403#0" expanded="false" />
-            <element signature="e#11446#11621#0" expanded="false" />
+            <element signature="e#691#1069#0" expanded="false" />
+            <element signature="e#1095#1322#0" expanded="false" />
+            <element signature="e#1344#1543#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -458,17 +488,23 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!block;n#signInAnonymously#0" expanded="false" />
-            <element signature="n#!!block;n#logout#0" expanded="false" />
             <element signature="n#!!block;n#AuthState#0" expanded="false" />
+            <element signature="n#!!block;n#logout#0" expanded="false" />
             <element signature="n#!!block;n#writeUserData#0" expanded="false" />
             <element signature="n#!!block;n#sendData#0" expanded="false" />
+            <element signature="n#!!block;n#deleteContactUser#0" expanded="false" />
             <element signature="n#!!block;n#getContact#0" expanded="false" />
             <element signature="n#!!block;n#printContact#0" expanded="false" />
             <element signature="n#!!block;n#updateContact#0" expanded="false" />
             <element signature="n#!!block;n#removeContact#0" expanded="false" />
             <element signature="n#!!block;n#showtoast#0" expanded="false" />
-            <element signature="e#5673#6370#0" expanded="false" />
+            <element signature="e#7321#7471#0" expanded="false" />
+            <element signature="e#7508#7662#0" expanded="false" />
+            <element signature="e#7698#7854#0" expanded="false" />
+            <element signature="n#!!block;n#goPage#0" expanded="false" />
+            <element signature="e#8230#9176#0" expanded="false" />
             <element signature="n#!!block;n#cleanFormData#0" expanded="false" />
+            <element signature="n#!!block;n#getCheck#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -497,7 +533,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="83" column="43" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="43" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#section#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#button#0;n#div#0;n#section#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -510,17 +545,23 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!block;n#signInAnonymously#0" expanded="false" />
-            <element signature="n#!!block;n#logout#0" expanded="false" />
             <element signature="n#!!block;n#AuthState#0" expanded="false" />
+            <element signature="n#!!block;n#logout#0" expanded="false" />
             <element signature="n#!!block;n#writeUserData#0" expanded="false" />
             <element signature="n#!!block;n#sendData#0" expanded="false" />
+            <element signature="n#!!block;n#deleteContactUser#0" expanded="false" />
             <element signature="n#!!block;n#getContact#0" expanded="false" />
             <element signature="n#!!block;n#printContact#0" expanded="false" />
             <element signature="n#!!block;n#updateContact#0" expanded="false" />
             <element signature="n#!!block;n#removeContact#0" expanded="false" />
             <element signature="n#!!block;n#showtoast#0" expanded="false" />
-            <element signature="e#5673#6370#0" expanded="false" />
+            <element signature="e#7321#7471#0" expanded="false" />
+            <element signature="e#7508#7662#0" expanded="false" />
+            <element signature="e#7698#7854#0" expanded="false" />
+            <element signature="n#!!block;n#goPage#0" expanded="false" />
+            <element signature="e#8230#9176#0" expanded="false" />
             <element signature="n#!!block;n#cleanFormData#0" expanded="false" />
+            <element signature="n#!!block;n#getCheck#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -530,7 +571,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#section#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#button#0;n#div#0;n#section#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -551,17 +591,23 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!block;n#signInAnonymously#0" expanded="false" />
-            <element signature="n#!!block;n#logout#0" expanded="false" />
             <element signature="n#!!block;n#AuthState#0" expanded="false" />
+            <element signature="n#!!block;n#logout#0" expanded="false" />
             <element signature="n#!!block;n#writeUserData#0" expanded="false" />
             <element signature="n#!!block;n#sendData#0" expanded="false" />
+            <element signature="n#!!block;n#deleteContactUser#0" expanded="false" />
             <element signature="n#!!block;n#getContact#0" expanded="false" />
             <element signature="n#!!block;n#printContact#0" expanded="false" />
             <element signature="n#!!block;n#updateContact#0" expanded="false" />
             <element signature="n#!!block;n#removeContact#0" expanded="false" />
             <element signature="n#!!block;n#showtoast#0" expanded="false" />
-            <element signature="e#5673#6370#0" expanded="false" />
+            <element signature="e#7321#7471#0" expanded="false" />
+            <element signature="e#7508#7662#0" expanded="false" />
+            <element signature="e#7698#7854#0" expanded="false" />
+            <element signature="n#!!block;n#goPage#0" expanded="false" />
+            <element signature="e#8230#9176#0" expanded="false" />
             <element signature="n#!!block;n#cleanFormData#0" expanded="false" />
+            <element signature="n#!!block;n#getCheck#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -571,7 +617,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#section#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#button#0;n#div#0;n#section#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -597,17 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27439025">
           <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="74" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
-          <folding>
-            <element signature="n#platform#0;n#widget#0;n#!!top" expanded="false" />
-            <element signature="n#platform#1;n#widget#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,68 +684,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
+    <entry file="file://$PROJECT_DIR$/www/js/PageTransitions/pagetransitions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.192308">
-          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding>
+            <element signature="e#691#1069#0" expanded="false" />
+            <element signature="e#1095#1322#0" expanded="false" />
+            <element signature="e#1344#1543#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/css/PageTransitions/component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state vertical-scroll-proportion="-0.018867925">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/index.js">
+    <entry file="file://$PROJECT_DIR$/www/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="188" column="34" selection-start-line="183" selection-start-column="4" selection-end-line="188" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!block;n#signInAnonymously#0" expanded="false" />
-            <element signature="n#!!block;n#logout#0" expanded="false" />
-            <element signature="n#!!block;n#AuthState#0" expanded="false" />
-            <element signature="n#!!block;n#writeUserData#0" expanded="false" />
-            <element signature="n#!!block;n#sendData#0" expanded="false" />
-            <element signature="n#!!block;n#getContact#0" expanded="false" />
-            <element signature="n#!!block;n#printContact#0" expanded="false" />
-            <element signature="n#!!block;n#updateContact#0" expanded="false" />
-            <element signature="n#!!block;n#removeContact#0" expanded="false" />
-            <element signature="n#!!block;n#showtoast#0" expanded="false" />
-            <element signature="e#5673#6370#0" expanded="false" />
-            <element signature="n#!!block;n#cleanFormData#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-18.884615">
+          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.538462">
-          <caret line="89" column="108" selection-start-line="89" selection-start-column="108" selection-end-line="89" selection-end-column="108" />
+        <state vertical-scroll-proportion="-22.76923">
+          <caret line="96" column="50" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="50" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#section#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#button#0;n#div#0;n#section#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/PageTransitions/pagetransitions.js">
+    <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51626015">
-          <caret line="414" column="0" selection-start-line="414" selection-start-column="0" selection-end-line="414" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.773585">
+          <caret line="30" column="67" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
           <folding>
-            <element signature="e#1347#1546#0" expanded="false" />
-            <element signature="e#1577#11241#0" expanded="false" />
-            <element signature="e#2335#10050#0" expanded="false" />
-            <element signature="e#10125#10609#0" expanded="false" />
-            <element signature="e#10751#10994#0" expanded="false" />
-            <element signature="e#11069#11146#0" expanded="false" />
-            <element signature="e#11290#11403#0" expanded="false" />
-            <element signature="e#11446#11621#0" expanded="false" />
+            <element signature="n#platform#0;n#widget#0;n#!!top" expanded="false" />
+            <element signature="n#platform#1;n#widget#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/assets/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.87533873">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7669377">
+          <caret line="381" column="17" selection-start-line="381" selection-start-column="17" selection-end-line="381" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!block;n#signInAnonymously#0" expanded="false" />
+            <element signature="n#!!block;n#AuthState#0" expanded="false" />
+            <element signature="n#!!block;n#logout#0" expanded="false" />
+            <element signature="n#!!block;n#writeUserData#0" expanded="false" />
+            <element signature="n#!!block;n#sendData#0" expanded="false" />
+            <element signature="n#!!block;n#deleteContactUser#0" expanded="false" />
+            <element signature="n#!!block;n#getContact#0" expanded="false" />
+            <element signature="n#!!block;n#printContact#0" expanded="false" />
+            <element signature="n#!!block;n#updateContact#0" expanded="false" />
+            <element signature="n#!!block;n#removeContact#0" expanded="false" />
+            <element signature="n#!!block;n#showtoast#0" expanded="false" />
+            <element signature="e#7321#7471#0" expanded="false" />
+            <element signature="e#7508#7662#0" expanded="false" />
+            <element signature="e#7698#7854#0" expanded="false" />
+            <element signature="n#!!block;n#goPage#0" expanded="false" />
+            <element signature="e#8230#9176#0" expanded="false" />
+            <element signature="n#!!block;n#cleanFormData#0" expanded="false" />
+            <element signature="n#!!block;n#getCheck#0" expanded="false" />
           </folding>
         </state>
       </provider>
